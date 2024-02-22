@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Include the template -->
+    <div id="template"></div>
+
     <!-- Specific content for this page -->
-    <script>
-        document.getElementById("content").innerHTML = `
-            <h1>Welcome to the Adults Page</h1>
-            <p>This is a special page just for adults. Customize and add more content!</p>
-        `;
-    </script>
+    <div id="content">
+        <h1>Welcome to the Adults Page</h1>
+        <p>This is a special page just for adults. Customize and add more content!</p>
+    </div>
+
+    <script src="loadContent.js"></script>
 </body>
 </html>
