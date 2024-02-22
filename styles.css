@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #1a4780;
+}
+
+p {
+    color: #333;
+}
+
+header {
+    background-color: #1a4780;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1a4780;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+    top: 100%;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.address {
+    font-style: italic;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+.outreach {
+    margin-top: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
